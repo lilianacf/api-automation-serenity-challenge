@@ -50,6 +50,17 @@ src/test/java/com/challenge
 
 ---
 
+## Arquitectura utilizada
+
+El proyecto implementa una estructura basada en el patrón Screenplay, separando responsabilidades en componentes reutilizables.
+
+- **Tasks:** encapsulan las acciones de negocio ejecutadas sobre la API.
+- **Questions:** centralizan las validaciones realizadas sobre las respuestas.
+- **Interactions:** contienen la implementación de las peticiones HTTP (GET, POST, PUT y DELETE).
+- **Step Definitions:** conectan los escenarios Gherkin con la lógica automatizada.
+
+Esta organización facilita la reutilización de código, mejora la mantenibilidad de las pruebas y permite escalar la solución de forma ordenada.
+
 ## Decisiones de diseño
 
 Durante el desarrollo del reto busqué mantener una estructura simple, reutilizable y fácil de escalar.

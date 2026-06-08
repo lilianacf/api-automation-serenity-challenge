@@ -1,18 +1,14 @@
 package com.challenge.runners;
 
-import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
+import io.cucumber.junit.CucumberOptions;
+import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.runner.RunWith;
 
-import org.junit.platform.suite.api.ConfigurationParameter;
-import org.junit.platform.suite.api.IncludeEngines;
-import org.junit.platform.suite.api.SelectClasspathResource;
-import org.junit.platform.suite.api.Suite;
-
-@Suite
-@IncludeEngines("cucumber")
-@SelectClasspathResource("features")
-@ConfigurationParameter(
-        key = GLUE_PROPERTY_NAME,
-        value = "com.challenge.stepdefinitions"
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions(
+        features = "src/test/resources/features",
+        glue = "com.challenge.stepdefinitions",
+        plugin = {"pretty"}
 )
 public class ApiChallengeRunner {
 }
