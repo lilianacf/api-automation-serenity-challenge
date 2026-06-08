@@ -1,3 +1,4 @@
+@get @crud
 Feature: Consulta de usuarios
 
   Scenario: Consultar lista de usuarios exitosamente

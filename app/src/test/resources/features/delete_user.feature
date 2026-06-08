@@ -1,3 +1,4 @@
+@delete @crud
 Feature: Eliminación de usuarios
 
   Scenario: Eliminar usuario exitosamente

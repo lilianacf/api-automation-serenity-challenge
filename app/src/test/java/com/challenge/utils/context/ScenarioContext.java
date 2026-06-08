@@ -1,4 +1,4 @@
-package com.challenge.stepdefinitions;
+package com.challenge.utils.context;
 
 import io.restassured.response.Response;
 

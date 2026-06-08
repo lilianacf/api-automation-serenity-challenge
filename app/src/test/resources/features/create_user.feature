@@ -1,3 +1,4 @@
+@post @crud
 Feature: Creación de usuarios
 
   Scenario: Crear usuario exitosamente

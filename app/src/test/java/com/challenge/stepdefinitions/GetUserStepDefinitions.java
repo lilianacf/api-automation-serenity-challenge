@@ -3,6 +3,7 @@ package com.challenge.stepdefinitions;
 import com.challenge.questions.StatusCodeQuestion;
 import com.challenge.questions.TheResponseBody;
 import com.challenge.tasks.GetUser;
+import com.challenge.utils.context.ScenarioContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;

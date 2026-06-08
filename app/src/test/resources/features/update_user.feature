@@ -1,3 +1,4 @@
+@put @crud
 Feature: Actualización de usuarios
 
   Scenario: Actualizar usuario exitosamente

@@ -1,6 +1,7 @@
 package com.challenge.stepdefinitions;
 
 import com.challenge.tasks.DeleteUser;
+import com.challenge.utils.context.ScenarioContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
