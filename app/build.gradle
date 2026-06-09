@@ -45,4 +45,12 @@ dependencies {
 
 test {
     useJUnit()
+
+    include '**/*Runner.class'
+    include '**/*Test.class'
+
+    testLogging {
+        events "passed", "failed", "skipped"
+        showStandardStreams = true
+    }
 }
