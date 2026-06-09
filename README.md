@@ -101,7 +101,7 @@ ApiChallengeRunner
 Ejecutar todas las pruebas:
 
 ```bash
-./gradlew clean test
+./gradlew clean :app:test :app:aggregate
 ```
 
 ---
